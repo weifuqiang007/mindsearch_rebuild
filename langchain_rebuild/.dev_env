@@ -1,0 +1,43 @@
+# LLM配置
+OPENAI_API_KEY=
+OPENAI_MODEL=
+
+# 硅基流动配置
+SILICONFLOW_API_KEY=sk-fjqxbqdmyisynpkrimlwoawyjutonxztfiqjeztsqqkqxgdx
+SILICONFLOW_MODEL=Qwen/QwQ-32B
+SILICONFLOW_BASE_URL=https://api.siliconflow.cn/v1
+
+# Default LLM provider (options: openai, anthropic, siliconflow)
+DEFAULT_LLM_PROVIDER=siliconflow
+
+# Search engine configuration
+DEFAULT_SEARCH_ENGINE=google
+google_api_key=AIzaSyBPGoydrz2XndeSITY3unrFO_i_nKt5QXI
+google_cse_id=1422961cbc2734ba1
+
+# Server configuration
+HOST=0.0.0.0
+PORT=8000
+DEBUG=true
+
+# PostgreSQL database configuration
+POSTGRES_HOST=192.168.0.141
+POSTGRES_PORT=5432
+POSTGRES_DB=mindsearch
+POSTGRES_USER=weifuqiang
+POSTGRES_PASSWORD=weifuqiang
+
+# Redis configuration
+REDIS_HOST=192.168.0.141
+REDIS_PORT=6379
+REDIS_DB=0
+REDIS_PASSWORD=infini_rag_flow
+REDIS_MAX_CONNECTIONS=20
+CACHE_TTL=3600
+SESSION_TTL=86400
+
+# Environment configuration
+ENVIRONMENT=development
+
+# Logging configuration
+LOG_LEVEL=INFO
